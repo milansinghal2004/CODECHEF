@@ -1,0 +1,19 @@
+// author : milan singhal
+// date : 28-11-2022
+#include <stdio.h>
+
+int main(void) {
+    int t,x;
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d",&x);
+        if(x>15){
+            printf("No\n");
+        }
+        else{
+            printf("YES\n");
+        }
+    }
+    	// your code goes here
+	return 0;
+}
