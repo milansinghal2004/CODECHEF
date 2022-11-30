@@ -1,0 +1,12 @@
+include <stdio.h>
+
+int main(void) {
+	int a,t;
+	scanf("%d",&t);
+	while(t--){
+	    scanf("%d",&a);
+	    int b = a*15;
+	    printf("%d\n",b);
+	}
+	return 0;
+}
