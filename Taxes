@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+	int a,t;
+	scanf("%d",&t);
+	while(t--){
+	    scanf("%d",&a);
+	    if (a>100)
+	    {
+	        printf("%d\n",a-10);
+	    }
+	    else 
+	    {
+	        printf("%d\n",a);
+	    }
+	}
+	return 0;
+}
+
