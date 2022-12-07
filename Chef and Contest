@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	while(t--){
+	    int tchef, tchefina;
+	    int p,q;
+	    scanf("%d%d%d%d", &tchef, &tchefina, &p, &q);
+	    int a = (tchef + (10*p));
+	    int b = (tchefina + (10*q));
+	    if(a < b)
+	    {
+	        printf("Chef\n");
+	    }
+	    else if(a == b)
+	    {
+	        printf("Draw\n");
+	    }
+	    else
+	    {
+	        printf("Chefina\n");
+	    }
+	}
+	return 0;
+}
+
+// chef's total time - x+(10*p)
+// chefina's total time - y+(10*q)
