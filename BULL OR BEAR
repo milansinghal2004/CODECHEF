@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+	int t,cost,sell;
+	scanf("%d",&t);
+	while(t--){
+	    scanf("%d%d", &cost, &sell);
+	    if(cost < sell){
+	        printf("PROFIT\n");
+	    }
+	    else if(cost == sell){
+	        printf("NEUTRAL\n");
+	    }
+	    else{
+	        printf("LOSS\n");
+	    }
+	}
+	return 0;
+}
+
