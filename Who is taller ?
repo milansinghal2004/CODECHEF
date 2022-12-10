@@ -1,0 +1,19 @@
+// Milan Singhal
+//10-12-2022
+
+#include <stdio.h>
+int main(void) {
+	int t,x,y;
+	scanf("%d",&t);
+	while(t--){
+	    scanf("%d%d", &x, &y);
+	    if(x>y){
+	        printf("A\n");
+	    }
+	    else{
+	        printf("B\n");
+	    }
+	}
+	return 0;
+}
+
