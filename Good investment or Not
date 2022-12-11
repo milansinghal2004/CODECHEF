@@ -1,0 +1,22 @@
+// Milan Singhal
+// 11-12-2022
+
+#include <stdio.h>
+
+int main(void) {
+    int t, intr, inf;
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d%d", &intr, &inf);
+        if(intr>=(2*inf))
+        {
+            printf("YES\n");
+        }
+        else
+        {
+            printf("NO\n");
+        }
+    }
+	return 0;
+}
+
