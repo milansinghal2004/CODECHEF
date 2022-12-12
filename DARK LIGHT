@@ -1,0 +1,36 @@
+// Milan Singhal
+// 12-12-2022
+#include <stdio.h>
+int main(void)
+{
+	int t;
+	scanf("%d",&t);
+	while(t--)
+	{
+	    int n, k;
+	    scanf("%d%d", &n, &k);
+	    if(n%4==0)
+	    {
+	        if (k==0)
+	        {
+	            printf("OFF\n");
+	        }
+	        else
+	        {
+	            printf("ON\n");
+	        }
+	    }
+	        else if (n%4==1 || n%4==2 || n%4==3)
+	        {
+	            if(k==0)
+	            {
+	                printf("ON\n");
+	            }
+	            else
+	            {
+	                printf("AMBIGUPUS\n");
+	            }
+	        }
+	 }
+}
+
