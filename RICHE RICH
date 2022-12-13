@@ -1,0 +1,16 @@
+// Milan Singhal
+// 13-12-2022
+
+#include <stdio.h>
+int main(void) {
+	int t,a,b,x;
+	scanf("%d",&t);
+	while(t--){
+	    scanf("%d%d%d", &a, &b, &x);
+	    int c = b-a;
+	    int d = c/x;
+	    printf("%d\n",d);
+	}
+	return 0;
+}
+
