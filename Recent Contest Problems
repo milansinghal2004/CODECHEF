@@ -1,0 +1,29 @@
+// Milan Singhal
+// 14-12-2022
+
+#include <stdio.h>
+
+int main(void) 
+{
+	int t,p;
+	char code[15];
+	scanf("%d",&t);
+	while(t--)
+	{
+	       scanf("%d",&p);
+	        int c1=0,c2=0;
+            for(int i=0;i<p;i++){
+            scanf("%s",code);
+            if(code[0]=='S'){
+                c1++;
+            }
+            else
+            {   
+                c2++;
+            }
+        }printf("%d %d\n",c1,c2);
+    }
+	
+	return 0;
+}
+
