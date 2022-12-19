@@ -1,0 +1,26 @@
+// Milan Singhal
+// 19-12-2022
+
+#include <stdio.h>
+int main(void)
+{
+	int t,d,l,r;
+	scanf("%d",&t);
+	for(int i=0;i<t;i++)
+	{
+	    scanf("%d%d%d",&d,&l,&r);
+	    if(d>r)
+	    {
+	        printf("Too Late\n");
+	    }
+	    else if(d<l)
+	    {
+	        printf("Too Early\n");
+	    }
+	    else if((d>=l)&&(d<=r))
+	    {
+	        printf("Take second dose now\n");
+	    }
+	}
+	return 0;
+}
