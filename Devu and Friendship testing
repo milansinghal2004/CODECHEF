@@ -1,0 +1,32 @@
+// Milan Singhal
+// 27-12-2022
+
+#include <stdio.h>
+int main(void) {
+    int t;
+    scanf("%d",&t);
+    while(t--){
+        int n,c=0,f;
+        scanf("%d",&n);
+        f=n;
+        int arr[n];
+        for(int i=0;i<n;i++){
+            scanf("%d",&arr[i]);
+        }
+        for(int i=0;i<n;i++){
+            c=0;
+            if(arr[i]!=-1){
+            for(int j=i+1;j<n;j++){
+                if(arr[i]==arr[j]){
+                    arr[j]=-1;
+                    c=c+1;
+                }  
+            }
+            }          
+            f=f-c;
+        }
+        printf("%d\n",f);
+    }
+	// your code goes here
+	return 0;
+}
