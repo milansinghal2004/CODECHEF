@@ -1,0 +1,32 @@
+// Milan Singhal
+// 01-01-2023
+
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int t;
+	scanf("%d", &t);
+	while(t--)
+	{
+	    int n, s;
+	    scanf("%d%d", &n, &s);
+	    int a = 0;
+	    while(n>=0 && a<=n) {
+	        if((a+n)==s) {
+	            break;
+	        }
+	        else {
+	            if((a+n) > s) {
+	                n--;
+	            }
+	            else {
+	                a++;
+	            }
+	        }
+	    }
+	    printf("%d\n", abs(a-n));
+	}
+	return 0;
+}
+
