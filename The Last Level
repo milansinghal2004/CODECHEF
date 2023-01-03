@@ -1,0 +1,32 @@
+// Milan Singhal
+// 03-01-2023
+
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	while(t--)
+	{ int x,y,z,g;
+        scanf("%d%d%d",&x,&y,&z);
+        if(x<=3)
+        {
+           printf("%d\n",x*y);
+        }
+        if(x>3)
+        {
+            if(x%3==0)
+            {
+                g=((x/3)-1)*z+(x*y);
+                printf("%d\n",g);
+            }
+            else
+            {
+                g=((x/3)*z)+(x*y);
+            printf("%d\n",g);
+            }
+        }
+	}
+            return 0;
+}
+
