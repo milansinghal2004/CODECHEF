@@ -1,0 +1,18 @@
+// Milan Singhal
+// 19-01-2023
+
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int t;
+	scanf("%d",&t);
+	while(t--){
+	    int  u,v,a,s;
+	    scanf("%d %d %d %d",&u,&v,&a,&s);
+	    if((v*v)>=((u*u)-2*a*s)) printf("Yes\n");
+	    else printf("No\n");
+	}
+	return 0;
+}
+
