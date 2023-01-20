@@ -1,0 +1,17 @@
+// Milan Singhal
+// 20-01-2023
+
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int t, x, m;
+	scanf("%d", &t);
+	while(t--)
+	{
+	    scanf("%d %d", &x, &m);
+	    printf("%d\n", m/x);
+	}
+	return 0;
+}
+
