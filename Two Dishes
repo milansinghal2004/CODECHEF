@@ -1,0 +1,25 @@
+// Milan Singhal
+// 26-01-2023
+
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int t;
+	scanf("%d", &t);
+	while(t--)
+	{
+	    int n = 0, a = 0, b = 0, c = 0;
+	    scanf("%d%d%d%d", &n, &a, &b, &c);
+	    if(b >= n && c + a >= n)
+	    {
+	        printf("Yes\n");
+	    }
+	    else
+	    {
+	        printf("No\n");
+	    }
+	}
+	return 0;
+}
+
