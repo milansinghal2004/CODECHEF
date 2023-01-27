@@ -1,0 +1,24 @@
+// Milan Singhal
+//27-01-2023
+
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int t, km;
+	scanf("%d", &t);
+	while(t--)
+	{
+	    scanf("%d", &km);
+	    if(km>300)
+	    {
+	        printf("%d\n", 10*km);
+	    }
+	    else
+	    {
+	        printf("3000\n");
+	    }
+	}
+	return 0;
+}
+
