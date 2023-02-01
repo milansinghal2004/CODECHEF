@@ -1,0 +1,50 @@
+// Milan Singhal
+// 01-02-2023
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int a,b;
+        cin>>a>>b;
+        int s;
+        s=a+b;
+        int co=0;
+        int r;
+        while(s!=0)
+        {
+            r=s%10;
+            if(r==0||r==6||r==9)
+            {
+                co=co+6;
+            }
+            if(r==1)
+            {
+                co=co+2;
+            }
+            if(r==2||r==5||r==3)
+            {
+                co=co+5;
+            }
+            if(r==4)
+            {
+                co=co+4;
+            }
+            if(r==7)
+            {
+                co=co+3;
+            }
+            if(r==8)
+            {
+                co=co+7;
+            }
+	        s=s/10;
+	    }
+	    cout<<co<<endl;
+	}
+	return 0;
+}
