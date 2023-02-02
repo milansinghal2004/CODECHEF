@@ -1,0 +1,20 @@
+// Milan Singhal
+// 02-02-2023
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int T_testcases = 0;
+    cin >> T_testcases;
+    
+    while(T_testcases--)
+    {
+        int Y_runs = 0, X_runs = 0;
+        cin >> X_runs >> Y_runs;
+        
+        cout << X_runs - Y_runs << endl;
+    }
+	return 0;
+}
