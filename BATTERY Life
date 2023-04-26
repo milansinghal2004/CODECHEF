@@ -7,7 +7,7 @@ int main(void) {
     scanf("%d",&t);
     while(t--){
         scanf("%d",&x);
-        if(x>15){
+        if(x>15){ //
             printf("No\n");
         }
         else{
