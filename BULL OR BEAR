@@ -9,7 +9,7 @@ int main(void) {
 	        printf("PROFIT\n");
 	    }
 	    else if(cost == sell){
-	        printf("NEUTRAL\n");
+	        printf("NEUTRAL\n");//
 	    }
 	    else{
 	        printf("LOSS\n");
