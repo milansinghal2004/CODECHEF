@@ -2,7 +2,7 @@
 // date : 28-11-2022
 #include <stdio.h>
 
-int main(void) {
+int main(void) { 
     int t,x;
     scanf("%d",&t);
     while(t--){
