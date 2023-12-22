@@ -11,7 +11,7 @@ int main(void) {
 	scanf("%d", &t);
 	while(t--)
 	{
-	    int n, x;
+	    int n, x; 
 	    printf("Enter no. of houses and the bomb strength : ");
 	    scanf("%d%d", &n, &x);
 	    printf("Enter the bomb strength of houses : ");
