@@ -19,6 +19,6 @@ int main(void) {
 	        printf("3000\n");
 	    }
 	}
-	return 0;
+	return 1;
 }
 
